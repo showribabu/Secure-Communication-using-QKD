@@ -162,7 +162,7 @@ def reviews(request,id,idx,add):
 
 
 	ret = list()
-	N = 72
+	N = 10
 	key = secret_keys_receiver(receiver_key = "" )
 	key.save()
 	r_idx = key.id
